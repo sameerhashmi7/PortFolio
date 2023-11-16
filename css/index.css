@@ -1,0 +1,76 @@
+* {
+  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-color: #fff;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  .side-navbar {
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #100901;
+    transition: 0.5s;
+  }
+  
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color: #ffffff26;
+  }
+  
+  .my-container {
+    transition: 0.4s;
+  }
+  
+  .active-nav {
+    margin-left: 0;
+  }
+  
+  /* for main section */
+  .active-cont {
+    margin-left: 180px;
+    width: 100%;
+    /* height: calc(140vh - 150px);
+    background: url("../assets/WhatsApp\ Image\ 2023-11-15\ at\ 11.23.46\ AM.jpeg") top center; */
+    background-size: cover;
+    position: relative;
+  }
+  
+  
+  #menu-btn {
+    background-color: #100901;
+    color: #fff;
+    margin-left: -62px;
+  }
+  
+  .my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+  }
+  .my-col h1{
+    font-family:sans-serif ;
+    font-style: italic;
+    font-weight: 500;
+
+  }
+  .my-col p{
+    font-size: 2em;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 300;
+  }
+  .main{
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 100%;
+  }
