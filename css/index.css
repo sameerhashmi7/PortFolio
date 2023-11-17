@@ -1,76 +1,65 @@
-* {
-  overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    min-height: 100vh;
-    background-color: #fff;
-  }
-  html{
-    scroll-behavior: smooth;
-  }
-  
-  .side-navbar {
-    width: 180px;
-    height: 100%;
-    position: fixed;
-    margin-left: -300px;
-    background-color: #100901;
-    transition: 0.5s;
-  }
-  
-  .nav-link:active,
-  .nav-link:focus,
-  .nav-link:hover {
-    background-color: #ffffff26;
-  }
-  
-  .my-container {
-    transition: 0.4s;
-  }
-  
-  .active-nav {
-    margin-left: 0;
-  }
-  
-  /* for main section */
-  .active-cont {
-    margin-left: 180px;
-    width: 100%;
-    /* height: calc(140vh - 150px);
-    background: url("../assets/WhatsApp\ Image\ 2023-11-15\ at\ 11.23.46\ AM.jpeg") top center; */
-    background-size: cover;
-    position: relative;
-  }
-  
-  
-  #menu-btn {
-    background-color: #100901;
-    color: #fff;
-    margin-left: -62px;
-  }
-  
-  .my-container input {
-    border-radius: 2rem;
-    padding: 2px 20px;
-  }
-  .my-col h1{
-    font-family:sans-serif ;
-    font-style: italic;
-    font-weight: 500;
+*{
 
-  }
-  .my-col p{
-    font-size: 2em;
-    font-family: sans-serif;
-    font-style: italic;
-    font-weight: 300;
-  }
-  .main{
-    margin-top: 10px;
-    margin-left: 180px;
-    width: 100%;
-  }
+}
+html{
+  scroll-behavior: smooth;
+}
+.active-cont{
+  background-image: url(../assets/pexels-pixabay-265152.jpg);
+  height: 100vh;
+}
+.my-col h1{
+  font-family:sans-serif ;
+  font-style: italic;
+  font-weight: 500;
+
+}
+.my-col p{
+  font-size: 2em;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+.main{
+  margin-top: 10px;
+  width: 100%;
+}
+/* Demo Margin */
+.container{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* This may not be needed depending on if you want to restrict the card size*/
+.card{
+  max-width: 380px;
+}
+
+.card-image-wrapper {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  /* Just to show the size of the image wrapper */
+  background-color: darkgrey;
+}
+
+.card-img-top {
+  display: block;
+  width: auto;
+  max-height: 100%;
+  margin: auto;
+}
+.info {
+  padding: 30px;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.my-hover a{
+  cursor: pointer;
+  overflow: hidden;
+
+}
+.my-hover:hover a{
+  transform: scale(1.1);
+  overflow: hidden;
+}
