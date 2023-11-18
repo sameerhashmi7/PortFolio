@@ -64,3 +64,17 @@ html{
   transform: scale(1.1);
   overflow: hidden;
 }
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35%;
+}
+
+/* Media query for screens smaller than the computer screen */
+@media (max-width: 768px) {
+  .navbar {
+      width: 100%;
+  }
+}
+.navy{
+  width: 110%;
+}
